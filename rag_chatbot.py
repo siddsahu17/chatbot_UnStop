@@ -51,15 +51,6 @@ def main():
     st.set_page_config(page_title="Employee Sentiment Analysis Chatbot", layout="wide")
     st.title("🤖 Employee Burnout & Mood Analysis Chatbot")
 
-    # Upload PDF
-    # uploaded_file = st.file_uploader("Upload Employee Sentiment PDF", type="pdf")
-    # if uploaded_file:
-    #     file_path = "data.pdf"
-    #     with open(file_path, "wb") as f:
-    #         f.write(uploaded_file.read())
-    #     chunk_and_store_data(file_path)
-    #     st.success("✅ Data processed and stored successfully!")
-
     # Chat Interface
     query = st.text_input("💬 Enter your query:")
     if query:
